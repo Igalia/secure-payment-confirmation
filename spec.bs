@@ -1159,7 +1159,7 @@ enrollment-in-iframe.sub.https.html
 
 Note: Algorithms specified in [[!CREDENTIAL-MANAGEMENT-1]] perform the actual
 permissions policy evaluation. This is because such policy evaluation needs to
-occur when there is access to the [=current settings object=]. The
+occur when there is access to the [=current principal settings object=]. The
 {{PublicKeyCredential/[[Create]](origin, options, sameOriginWithAncestors)}}
 and {{PublicKeyCredential/[[DiscoverFromExternalSource]](origin, options,
 sameOriginWithAncestors)}} [=internal methods=] do not have such access since
